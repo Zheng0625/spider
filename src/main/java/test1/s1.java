@@ -58,6 +58,7 @@ public class s1 {
         }
 
     }
+    //爬取图片
     static void test(int z) {
         final WebClient webClient = new WebClient(BrowserVersion.CHROME);
         webClient.getOptions().setCssEnabled(false);// 关闭css
