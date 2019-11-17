@@ -27,9 +27,6 @@ public class s1 {
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/one?useUnicode=true&characterEncoding=UTF-8",
                 "root", "1234");
         Statement statement = connection.createStatement();
-//        statement.executeUpdate(
-//                "create table OneData( id bigint primary key not null auto_increment,maintext varchar(100), titletext varchar(50), imgtitletext varchar(50), imgurl varchar(10)");
-
         final WebClient webClient = new WebClient(BrowserVersion.CHROME);
         webClient.getOptions().setCssEnabled(false);// 关闭css
         webClient.getOptions().setJavaScriptEnabled(false);// 关闭js
