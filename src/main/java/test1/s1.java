@@ -21,6 +21,7 @@ public class s1 {
         testOne();
 
     }
+    //爬取One一个
     static void testOne()  throws Exception  {
         Class.forName("com.mysql.jdbc.Driver");// 创建连接对象
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/one?useUnicode=true&characterEncoding=UTF-8",
